@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\Alligator.jpg" />
+    <None Remove="Image\Antelope.jpg" />
+    <None Remove="Image\Pheasant.jpg" />
+    <None Remove="Image\Pigeon.jpg" />
+    <None Remove="Image\Stork.jpg" />
+    <None Remove="Resources\Pheasant.wav" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Reference Include="Kids1135PluginBase">
+      <HintPath>..\..\Kids1135PluginBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Alligator.jpg" />
+    <Resource Include="Image\Antelope.jpg" />
+    <Resource Include="Image\Crow.jpg" />
+    <Resource Include="Image\Goose.jpg" />
+    <Resource Include="Image\Magpie.jpeg" />
+    <Resource Include="Image\Pheasant.jpg" />
+    <Resource Include="Image\Pigeon.jpg" />
+	<Resource Include="Image\Sparrow.jpg" />
+	<Resource Include="Image\Stork.jpg" />
+	<Resource Include="Resources\Pheasant.wav" />
+	<Resource Include="Sounds\Stork.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
