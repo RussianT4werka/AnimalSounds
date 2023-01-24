@@ -81,9 +81,54 @@ namespace AnimalSounds.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Camel {
+            get {
+                return ResourceManager.GetStream("Camel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Cicada {
+            get {
+                return ResourceManager.GetStream("Cicada", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Cricket {
+            get {
+                return ResourceManager.GetStream("Cricket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Crow {
             get {
                 return ResourceManager.GetStream("Crow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Fly {
+            get {
+                return ResourceManager.GetStream("Fly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Frog {
+            get {
+                return ResourceManager.GetStream("Frog", resourceCulture);
             }
         }
         
@@ -99,9 +144,36 @@ namespace AnimalSounds.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Gorilla {
+            get {
+                return ResourceManager.GetStream("Gorilla", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Lizard {
+            get {
+                return ResourceManager.GetStream("Lizard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Magpie {
             get {
                 return ResourceManager.GetStream("Magpie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Mosquito {
+            get {
+                return ResourceManager.GetStream("Mosquito", resourceCulture);
             }
         }
         
@@ -120,6 +192,24 @@ namespace AnimalSounds.Properties {
         internal static System.IO.UnmanagedMemoryStream Pigeon {
             get {
                 return ResourceManager.GetStream("Pigeon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Ram {
+            get {
+                return ResourceManager.GetStream("Ram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Snake {
+            get {
+                return ResourceManager.GetStream("Snake", resourceCulture);
             }
         }
         

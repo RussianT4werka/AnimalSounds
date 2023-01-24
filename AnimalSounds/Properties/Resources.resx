@@ -124,20 +124,50 @@
   <data name="Antelope" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Antelope.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Camel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cicada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cicada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cricket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cricket.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Crow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fly.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Frog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frog.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Goose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Goose.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Gorilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gorilla.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lizard.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Magpie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Magpie.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mosquito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mosquito.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Pheasant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pheasant.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Pigeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pigeon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ram.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Sparrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sparrow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

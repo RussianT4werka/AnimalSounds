@@ -10,8 +10,18 @@
   <ItemGroup>
     <None Remove="Image\Alligator.jpg" />
     <None Remove="Image\Antelope.jpg" />
+    <None Remove="Image\Camel.jpg" />
+    <None Remove="Image\Cicada.jpg" />
+    <None Remove="Image\Cricket.jpg" />
+    <None Remove="Image\Fly.jpg" />
+    <None Remove="Image\Frog.jpg" />
+    <None Remove="Image\Gorilla.jpg" />
+    <None Remove="Image\Lizard.jpg" />
+    <None Remove="Image\Mosquito.jpg" />
     <None Remove="Image\Pheasant.jpg" />
     <None Remove="Image\Pigeon.jpg" />
+    <None Remove="Image\Ram.jpg" />
+    <None Remove="Image\Snake.jpg" />
     <None Remove="Image\Stork.jpg" />
     <None Remove="Resources\Pheasant.wav" />
   </ItemGroup>
@@ -26,11 +36,21 @@
   <ItemGroup>
     <Resource Include="Image\Alligator.jpg" />
     <Resource Include="Image\Antelope.jpg" />
+    <Resource Include="Image\Camel.jpg" />
+    <Resource Include="Image\Cicada.jpg" />
+    <Resource Include="Image\Cricket.jpg" />
     <Resource Include="Image\Crow.jpg" />
+    <Resource Include="Image\Fly.jpg" />
+    <Resource Include="Image\Frog.jpg" />
     <Resource Include="Image\Goose.jpg" />
+    <Resource Include="Image\Gorilla.jpg" />
+    <Resource Include="Image\Lizard.jpg" />
     <Resource Include="Image\Magpie.jpeg" />
+    <Resource Include="Image\Mosquito.jpg" />
     <Resource Include="Image\Pheasant.jpg" />
     <Resource Include="Image\Pigeon.jpg" />
+    <Resource Include="Image\Ram.jpg" />
+    <Resource Include="Image\Snake.jpg" />
 	<Resource Include="Image\Sparrow.jpg" />
 	<Resource Include="Image\Stork.jpg" />
 	<Resource Include="Resources\Pheasant.wav" />

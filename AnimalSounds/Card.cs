@@ -13,5 +13,6 @@ namespace AnimalSounds
         public string? ImagePath { get; set; }
         public string? Name { get; set; }
         public Command? Command { get; set; }
+        public Command? CommandP { get; set; }
     }
 }

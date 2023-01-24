@@ -38,10 +38,19 @@ namespace AnimalSounds
         public Command PlayPheasant { get; set; }
         //Млекопитающие
         public Command PlayAntilope { get; set; }
+        public Command PlayRam { get; set; }
+        public Command PlayCamel { get; set; }
+        public Command PlayGorilla { get; set; }
         //Пресмыкающиеся
         public Command PlayAlligator { get; set; }
+        public Command PlayFrog { get; set; }
+        public Command PlayLizard { get; set; }
+        public Command PlaySnake { get; set; }
         //Насекомые
-
+        public Command PlayCricket { get; set; }
+        public Command PlayCicada { get; set; }
+        public Command PlayFly { get; set; }
+        public Command PlayMosquito { get; set; }
 
         public MainPage()
         {
@@ -109,7 +118,7 @@ namespace AnimalSounds
                 sp.PlayLooping();// цикл воспроизведения
                 sp.Play();// Играем один раз
                 sp = new SoundPlayer(Properties.Resources.Pheasant);
-                MessageBox.Show("*Звуки дикого петуха*");
+                MessageBox.Show("*Звуки игрушечного автомата на батарейках*");
             });
 
             //Млекопитающие
@@ -122,6 +131,33 @@ namespace AnimalSounds
                 MessageBox.Show("*Звуки слишком быстрой коровы?*");
             });
 
+            PlayRam = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Ram);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Ram);
+                MessageBox.Show("Бееее");
+            });
+
+            PlayCamel = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Camel);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Camel);
+                MessageBox.Show("*Очередные звуки смерти*");
+            });
+
+            PlayGorilla = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Gorilla);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Gorilla);
+                MessageBox.Show("*Что-то на африканском*");
+            });
+
             //Пресмыкающиеся
             PlayAlligator = new Command(() =>
             {
@@ -130,6 +166,69 @@ namespace AnimalSounds
                 sp.Play();// Играем один раз
                 sp = new SoundPlayer(Properties.Resources.Alligator);
                 MessageBox.Show("*Звуки приближающейся смерти*");
+            });
+
+            PlayFrog = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Frog);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Frog);
+                MessageBox.Show("Ква-ква");
+            });
+
+            PlayLizard = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Lizard);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Lizard);
+                MessageBox.Show("Хшшшш");
+            });
+
+            PlaySnake = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Snake);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Snake);
+                MessageBox.Show("Фшшш");
+            });
+            //Насекомые
+            PlayCricket = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Cricket);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Alligator);
+                MessageBox.Show("*Звуки тишины*");
+            });
+
+            PlayCicada = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Cicada);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Cicada);
+                MessageBox.Show("*Звуки тишины*");
+            });
+
+            PlayFly = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Fly);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Fly);
+                MessageBox.Show("Звук существа любящего попсу");
+            });
+
+            PlayMosquito = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Mosquito);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Mosquito);
+                MessageBox.Show("Бззззззззззз");
             });
 
             Birds = new ObservableCollection<Card>
@@ -146,21 +245,29 @@ namespace AnimalSounds
             Mammals = new ObservableCollection<Card>
             {
                 new Card {Id=1, ImagePath="/AnimalSounds;component/Image/Antelope.jpg", Name="Антилопа", Command = PlayAntilope},
-                
+                new Card {Id=2, ImagePath="/AnimalSounds;component/Image/Ram.jpg", Name="Баран", Command = PlayRam},
+                new Card {Id=3, ImagePath="/AnimalSounds;component/Image/Camel.jpg", Name="Верблюд", Command = PlayCamel},
+                new Card {Id=4, ImagePath="/AnimalSounds;component/Image/Gorilla.jpg", Name="Горилла", Command = PlayGorilla},
             };
             
             Reptiles = new ObservableCollection<Card>
             {
                 new Card {Id=1, ImagePath="/AnimalSounds;component/Image/Alligator.jpg", Name="Аллигатор", Command = PlayAlligator},
+                new Card {Id=2, ImagePath="/AnimalSounds;component/Image/Frog.jpg", Name="Лягушка", Command = PlayFrog},
+                new Card {Id=3, ImagePath="/AnimalSounds;component/Image/Lizard.jpg", Name="Ящерица", Command = PlayLizard},
+                new Card {Id=4, ImagePath="/AnimalSounds;component/Image/Snake.jpg", Name="Змея", Command = PlaySnake},
             };
             
             Insects = new ObservableCollection<Card>
             {
-                new Card {Id=1, ImagePath="/AnimalSounds;component/Image/Flea.jpg", Name="Блоха", Command = PlayFlea},
+                new Card {Id=1, ImagePath="/AnimalSounds;component/Image/Cricket.jpg", Name="Сверчок", Command = PlayCricket},
+                new Card {Id=2, ImagePath="/AnimalSounds;component/Image/Cicada.jpg", Name="Цикада", Command = PlayCicada},
+                new Card {Id=3, ImagePath="/AnimalSounds;component/Image/Fly.jpg", Name="Муха", Command = PlayFly},
+                new Card {Id=4, ImagePath="/AnimalSounds;component/Image/Mosquito.jpg", Name="Комар", Command = PlayMosquito},
             };
 
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Birds)));
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mammals)));
+            //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Birds)));
+            //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Mammals)));
 
         }
 

@@ -10,9 +10,13 @@
     <Page.Resources>
         <DataTemplate x:Key="CardTemplate" DataType="{x:Type local:Card}">
             <StackPanel Margin="5">
-                <Image Width="100" Height="75" Source="{Binding ImagePath}" />
+                <Image Width="155" Height="101" Source="{Binding ImagePath}" />
                 <TextBlock FontSize="16" Text="{Binding Path=Name}" HorizontalAlignment="Center" />
-                <Button Content="🔊" FontSize="16" Command="{Binding Path=Command}" HorizontalAlignment="Center" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Background="Yellow"  Content="    🔊    " FontSize="16" Command="{Binding Path=Command}" HorizontalAlignment="Center" FontWeight="Medium" BorderBrush="#FFFF7D31"/>
+                    <!--<Button Content="⏸️" FontSize="16" Command="{Binding Path=CommandP}" HorizontalAlignment="Center" />-->
+                </StackPanel>
+                
             </StackPanel>
         </DataTemplate>
     </Page.Resources>
@@ -23,13 +27,16 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <ListBox HorizontalAlignment="Center" ItemTemplate="{StaticResource CardTemplate}" 
-                 ItemsSource="{Binding Birds}"/>
+        <ListBox Background="#FFA5D5FF" HorizontalAlignment="Center" ItemTemplate="{StaticResource CardTemplate}" 
+                 ItemsSource="{Binding Birds}" FontWeight="Bold"/>
+        
+        <ListBox Background="#FF8E4D4D" Grid.Column="1" ItemTemplate="{StaticResource CardTemplate}" 
+                 ItemsSource="{Binding Mammals}" FontWeight="Bold"/>
 
-        <ListBox Grid.Column="1" ItemTemplate="{StaticResource CardTemplate}" 
-                 ItemsSource="{Binding Mammals}"/>
+        <ListBox Background="#FF7D7DFF" Grid.Column="2" ItemTemplate="{StaticResource CardTemplate}" 
+                 ItemsSource="{Binding Reptiles}" FontWeight="Bold"/>
 
-        <ListBox Grid.Column="2" ItemTemplate="{StaticResource CardTemplate}" 
-                 ItemsSource="{Binding Reptiles}"/>
+        <ListBox Background="#FF339C33" Grid.Column="3" ItemTemplate="{StaticResource CardTemplate}" 
+                 ItemsSource="{Binding Insects}" FontWeight="Bold"/>
     </Grid>
 </Page>
