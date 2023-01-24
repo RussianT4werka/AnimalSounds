@@ -13,6 +13,7 @@
     <None Remove="Image\Camel.jpg" />
     <None Remove="Image\Cicada.jpg" />
     <None Remove="Image\Cricket.jpg" />
+    <None Remove="Image\Dolphin.jpg" />
     <None Remove="Image\Fly.jpg" />
     <None Remove="Image\Frog.jpg" />
     <None Remove="Image\Gorilla.jpg" />
@@ -40,6 +41,7 @@
     <Resource Include="Image\Cicada.jpg" />
     <Resource Include="Image\Cricket.jpg" />
     <Resource Include="Image\Crow.jpg" />
+    <Resource Include="Image\Dolphin.jpg" />
     <Resource Include="Image\Fly.jpg" />
     <Resource Include="Image\Frog.jpg" />
     <Resource Include="Image\Goose.jpg" />
@@ -54,7 +56,6 @@
 	<Resource Include="Image\Sparrow.jpg" />
 	<Resource Include="Image\Stork.jpg" />
 	<Resource Include="Resources\Pheasant.wav" />
-	<Resource Include="Sounds\Stork.wav" />
   </ItemGroup>
 
   <ItemGroup>

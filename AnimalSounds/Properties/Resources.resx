@@ -136,6 +136,9 @@
   <data name="Crow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Dolphin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dolphin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Fly" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fly.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -173,6 +176,6 @@
     <value>..\Resources\Sparrow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Stork" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\stork.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Stork.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

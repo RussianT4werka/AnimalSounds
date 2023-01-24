@@ -117,6 +117,15 @@ namespace AnimalSounds.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Dolphin {
+            get {
+                return ResourceManager.GetStream("Dolphin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Fly {
             get {
                 return ResourceManager.GetStream("Fly", resourceCulture);

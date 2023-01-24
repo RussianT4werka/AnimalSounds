@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AnimalSounds">
     <Page.Resources>
-        <DataTemplate x:Key="CardTemplate" DataType="{x:Type local:Card}">
+        <DataTemplate x:Key="CardTemplate">
             <StackPanel Margin="5">
                 <Image Width="155" Height="101" Source="{Binding ImagePath}" />
                 <TextBlock FontSize="16" Text="{Binding Path=Name}" HorizontalAlignment="Center" />

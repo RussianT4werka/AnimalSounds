@@ -41,6 +41,7 @@ namespace AnimalSounds
         public Command PlayRam { get; set; }
         public Command PlayCamel { get; set; }
         public Command PlayGorilla { get; set; }
+        public Command PlayDolphin { get; set; }
         //Пресмыкающиеся
         public Command PlayAlligator { get; set; }
         public Command PlayFrog { get; set; }
@@ -64,7 +65,7 @@ namespace AnimalSounds
                 sp.PlayLooping();// цикл воспроизведения
                 sp.Play();// Играем один раз
                 sp = new SoundPlayer(Properties.Resources.Stork);
-                MessageBox.Show("Курлык-курлык");
+                MessageBox.Show("*Адские звуки Сатаны*");
             });
 
             PlaySparrow = new Command(() =>
@@ -158,6 +159,15 @@ namespace AnimalSounds
                 MessageBox.Show("*Что-то на африканском*");
             });
 
+            PlayDolphin = new Command(() =>
+            {
+                SoundPlayer sp = new SoundPlayer(Properties.Resources.Dolphin);// soundPlayer может воспроизводить только аудио в формате WAV
+                sp.PlayLooping();// цикл воспроизведения
+                sp.Play();// Играем один раз
+                sp = new SoundPlayer(Properties.Resources.Dolphin);
+                MessageBox.Show("*Зацензуренные матюки*");
+            });
+
             //Пресмыкающиеся
             PlayAlligator = new Command(() =>
             {
@@ -248,6 +258,7 @@ namespace AnimalSounds
                 new Card {Id=2, ImagePath="/AnimalSounds;component/Image/Ram.jpg", Name="Баран", Command = PlayRam},
                 new Card {Id=3, ImagePath="/AnimalSounds;component/Image/Camel.jpg", Name="Верблюд", Command = PlayCamel},
                 new Card {Id=4, ImagePath="/AnimalSounds;component/Image/Gorilla.jpg", Name="Горилла", Command = PlayGorilla},
+                new Card {Id=5, ImagePath="/AnimalSounds;component/Image/Dolphin.jpg", Name="Дельфин", Command = PlayDolphin},
             };
             
             Reptiles = new ObservableCollection<Card>
